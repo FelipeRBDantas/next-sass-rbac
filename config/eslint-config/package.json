@@ -4,9 +4,9 @@
   "type": "module",
   "private": true,
   "exports": {
-    "./base": "./base.js",
-    "./node": "./node.js",
-    "./library": "./library.js"
+    "./base": "./base.cjs",
+    "./next": "./next.cjs",
+    "./node": "./node.cjs"
   },
   "devDependencies": {
     "@rocketseat/eslint-config": "^2.2.2",
@@ -15,6 +15,6 @@
   },
   "prettier": "@saas/prettier",
   "eslintConfig": {
-    "extends": ["./library.js"]
+    "extends": ["./base.cjs"]
   }
 }
