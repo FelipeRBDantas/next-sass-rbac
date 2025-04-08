@@ -13,4 +13,4 @@ export const projectSubject = z.tuple([
 
 export type ProjectSubject = z.infer<typeof projectSubject>
 
-// export type ProjectSubject = ['create' | 'delete' | 'manage', 'Project']
+// export type ProjectSubject = ['manage' | 'get | 'create' | 'update' | 'delete', 'Project']

@@ -12,4 +12,4 @@ export const userSubject = z.tuple([
 
 export type UserSubject = z.infer<typeof userSubject>
 
-// export type UserSubject = ['create' | 'delete' | 'invite' | 'manage', 'User']
+// export type UserSubject = ['manage' | 'get' | 'update' | 'delete', 'User']
